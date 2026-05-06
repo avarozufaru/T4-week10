@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 07 Bulan Mei 2026 pada 01.00
+-- Waktu pembuatan: 07 Bulan Mei 2026 pada 01.51
 -- Versi server: 10.4.32-MariaDB
 -- Versi PHP: 8.2.12
 
@@ -42,7 +42,8 @@ CREATE TABLE `buku` (
 --
 
 INSERT INTO `buku` (`id`, `judul`, `pengarang`, `penerbit`, `tahun_terbit`, `stok`, `created_at`) VALUES
-(1, 'Pemrograman Web Dasar', 'Budi Raharjo', 'Informatika', '2024', 15, '2026-05-06 22:56:06');
+(3, 'Mahir Database MySQL', 'Abdul Kadir', 'Andi Publisher', '2024', 10, '2026-05-06 23:37:07'),
+(4, 'Pemrograman Web Dasar', 'Budi Raharjo', 'Informatika', '2024', 15, '2026-05-06 23:45:11');
 
 --
 -- Indexes for dumped tables
@@ -62,7 +63,7 @@ ALTER TABLE `buku`
 -- AUTO_INCREMENT untuk tabel `buku`
 --
 ALTER TABLE `buku`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -10,7 +10,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $stok         = trim($_POST['stok'] ?? '');
 
     if (!empty($judul) && !empty($pengarang) && !empty($penerbit) && !empty($tahun_terbit) && $stok !== '') {
-        // Query INSERT INTO disesuaikan untuk tabel buku
         $stmt = $pdo->prepare("INSERT INTO buku (judul, pengarang, penerbit, tahun_terbit, stok) VALUES (:judul, :pengarang, :penerbit, :tahun_terbit, :stok)");
         
         $stmt->execute([
