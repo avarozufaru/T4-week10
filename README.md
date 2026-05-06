@@ -1,4 +1,4 @@
-\# T4-week10 - Aplikasi CRUD PHP MySQL
+# T4-week10 - Aplikasi CRUD PHP MySQL
 
 
 
@@ -10,51 +10,51 @@ Kelas : Pemrograman Web
 
 
 
-\## Deskripsi
+## Deskripsi
 
 Aplikasi CRUD (Create, Read, Update, Delete) menggunakan PHP, MySQL, dan Bootstrap.
 
 
 
-\- Database  : perpustakaan\_db / inventaris\_db (sesuai NIM)
+- Database  : perpustakaan\_db / inventaris\_db (sesuai NIM)
 
-\- Tabel     : buku / barang (sesuai NIM)
-
-
-
-\## Cara Menjalankan
-
-1\. Import file .sql ke phpMyAdmin
-
-2\. Letakkan folder project di htdocs/ (XAMPP)
-
-3\. Buka browser ke http://localhost/T4-week10/
+- Tabel     : buku / barang (sesuai NIM)
 
 
 
-\## Screenshot
+## Cara Menjalankan
+
+1. Import file .sql ke phpMyAdmin
+
+2. Letakkan folder project di htdocs/ (XAMPP)
+
+3. Buka browser ke http://localhost/T4-week10/
 
 
 
-\### Daftar Data
-
-!\[Index](screenshot/index.png)
+## Screenshot
 
 
 
-\### Tambah Data
+### Daftar Data
 
-!\[Create](screenshot/create.png)
-
-
-
-\### Edit Data
-
-!\[Edit](screenshot/edit.png)
+![Index](screenshot/index.png)
 
 
 
-\### Struktur Database (phpMyAdmin)
+### Tambah Data
 
-!\[Database](screenshot/database.png)
+![Create](screenshot/create.png)
+
+
+
+### Edit Data
+
+![Edit](screenshot/edit.png)
+
+
+
+### Struktur Database (phpMyAdmin)
+
+![Database](screenshot/database.png)
 
